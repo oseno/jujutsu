@@ -1,0 +1,214 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 500;
+}
+/* 
+> */
+
+/*.container-fluid {
+    font-family: 'Quicksand', sans-serif;
+      padding: 3% 15%;
+}*/
+
+#title {
+    background: url("jjkteen.png") no-repeat center center;
+    color: #162044;
+}
+
+.col-6 {
+    padding-top: 19%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+
+#megsyuji {
+    /* font-family: 'Noto Sans Bold 700 italic', sans-serif; */
+    font-size: 4em;
+    line-height: 1.2;
+    /* text-shadow: 0 0 8px #162044; */
+}
+
+#yujimegs {
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Noto Sans Regular 400', sans-serif; */
+    font-size: 2em;
+}
+
+.navbar-light .navbar-brand {
+    color: #162044;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Roboto Light 300', sans-serif; */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.navbar {
+    padding-top: 2%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Roboto Medium 500', sans-serif; */
+    font-size: 1.2em;
+    line-height: 1.2;
+    color: #162044;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color:#b81924;
+}
+
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    /* font-family:'Roboto Medium 500', sans-serif ;
+    color: #ffffff;
+    background: #ffffff; */
+    padding: 1px 20px 1px 20px;
+    text-decoration: none;
+    border-color: #162044;
+    transition: background-color .7s;
+}
+
+.btn:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.dosmthfun{
+    color:#b81924;
+    font-weight:bold;
+}
+
+/* Reviews Section */
+
+#reviews {
+    background-color: #ffffff;
+    position: relative;
+    padding: 0 15%;
+    padding-top:7%;
+  }
+  
+  .review-title {
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+  
+  .review-box {
+    padding: 4.5%;
+    text-align: center;
+  }
+  
+  .icon {
+    color: #b81924;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #aa172d;
+  }
+
+  #about {
+    background-color: #162044;
+    background-image: url("questionbg.png") ;
+    position: relative;
+    padding: 7% 15%;
+    color:white;
+  }
+  
+  .abth3{
+      line-height: 1.5;
+      font-size: 2.5rem;
+  }
+
+  .abtp{
+    line-height: 1.5;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+  .abtdownload{
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    margin-top: 1rem;
+  }
+  #characters {
+    background-color: #ffffff;
+    position: relative;
+    padding: 7% 15%;
+    color: #162044;
+  }
+  
+ .char-box{
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .charimg{
+    width: 105%;
+    height: 70%;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+  }
+  .charname{
+    line-height: 1.5;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>>';
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<<';
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+  #footer {
+    text-align: center;
+    background-color: #162044;
+    color:white;
+    padding: 7% 15%;
+    /* margin-bottom: -50px; */
+  } 
+  .footh3{
+      margin-bottom: 5%;
+  }
+  .social-icon {
+    margin: 20px 10px;
+  }
