@@ -20,19 +20,27 @@ h6{
 }*/
 
 #title {
-    background: url("jjkteen.png") no-repeat center center;
-    color: #162044;
+  background: url("jjkteen.png") no-repeat center center;
+  color: #162044;
 }
-
-.col-6 {
-    padding-top: 19%;
+@media only screen and (max-width:890px){#title {
+background:white ;
+}
+}
+.col-11 {
+    padding-top: 14%;
     padding-bottom: 5%;
     padding-left: 5%;
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
 }
-
+@media only screen and (max-width:890px){.col-11 {
+  padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+  }
+  }
 
 #megsyuji {
     /* font-family: 'Noto Sans Bold 700 italic', sans-serif; */
@@ -40,22 +48,33 @@ h6{
     line-height: 1.2;
     /* text-shadow: 0 0 8px #162044; */
 }
-
+@media only screen and (max-width:890px){#megsyuji {
+  font-size: 2.99em;
+  line-height: 1.4;
+  }
+  }
 #yujimegs {
     font-family: 'Quicksand', sans-serif;
     /* font-family: 'Noto Sans Regular 400', sans-serif; */
     font-size: 2em;
 }
-
+@media only screen and (max-width:890px){#yujimegs {
+  padding-top: 10%;
+  }
+  }
 .navbar-light .navbar-brand {
     color: #162044;
     font-family: 'Quicksand', sans-serif;
     /* font-family: 'Roboto Light 300', sans-serif; */
     font-size: 2.5rem;
     font-weight: bold;
-    margin-left: 5%;
+    margin-left: 3%;
 }
-
+@media only screen and (max-width:890px){.navbar-light .navbar-brand {
+  font-size: 1.7rem;
+  margin-left: 0%;
+  }
+  }
 .navbar {
     padding-top: 2%;
 }
@@ -86,7 +105,11 @@ h6{
     border-color: #162044;
     transition: background-color .7s;
 }
-
+@media only screen and (max-width:890px){.btn {
+  border-color: white;
+  padding: 0px 0px 0px 0px;
+  }
+  }
 .btn:hover {
     background: #ffffff;
     text-decoration: none;
@@ -137,12 +160,21 @@ h6{
       line-height: 1.5;
       font-size: 2.5rem;
   }
-
+  @media only screen and (max-width:890px){.abth3 {
+  
+    font-size: 2rem;
+    }
+    }
   .abtp{
     line-height: 1.5;
     margin-top: 2rem;
     font-size: 1.5rem;
 }
+@media only screen and (max-width:890px){.abtp {
+  
+  font-size: 1.2rem;
+  }
+  }
   .abtdownload{
     text-align: center;
     padding: 2px 20px 2px 20px;
@@ -151,6 +183,10 @@ h6{
     left: 40%;
     margin-top: 1rem;
   }
+  @media only screen and (max-width:890px){.abtdownload {
+    position: static;
+    }
+    } 
   #characters {
     background-color: #ffffff;
     position: relative;
@@ -207,8 +243,24 @@ h6{
     /* margin-bottom: -50px; */
   } 
   .footh3{
-      margin-bottom: 5%;
+      margin-bottom: 4%;
   }
+  .footh5{
+    padding-top: 0px;
+}
+
+@media only screen and (max-width:890px){.footh5 {
+  padding-top: 20px;
+  }
+  }
+
+
+.short-text { display: none; }
+
+@media (max-width: 890px) {
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
+}
   .social-icon {
     margin: 20px 10px;
   }
